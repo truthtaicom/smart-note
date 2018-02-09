@@ -1,0 +1,41 @@
+{
+  "name": "smart-note",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "yarn jest && flow && eslint ."
+  },
+  "dependencies": {
+    "flow-typed": "^2.3.0",
+    "husky": "^0.14.3",
+    "lodash": "^4.17.5",
+    "native-base": "^2.3.8",
+    "react": "16.2.0",
+    "react-native": "0.53.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.0.3",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.6.12",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1",
+    "styled-components": "^3.1.6"
+  },
+  "devDependencies": {
+    "babel-jest": "22.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.17.0",
+    "eslint-plugin-flowtype": "^2.43.0",
+    "flow-bin": "^0.65.0",
+    "jest": "22.2.1",
+    "react-test-renderer": "16.2.0",
+    "reactotron-react-native": "^1.14.0",
+    "redux-devtools-extension": "^2.13.2",
+    "storybook": "^1.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
